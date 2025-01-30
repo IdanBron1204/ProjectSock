@@ -6,7 +6,7 @@ import random
 client= socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 client.bind(('localhost',random.randint(8000,9000)))
 
-name= input("enter nickname: ")
+name= input("enter nickname:  ")
 
 def receive():
     while True:
